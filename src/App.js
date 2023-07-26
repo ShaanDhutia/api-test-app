@@ -9,8 +9,8 @@ export default function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path="/" children={<Todos />} />
-          <Route exact path="/todo/:id" children={<Todo />} />
+          <Route exact path="/" element={<Todos />} />
+          <Route exact path="/todo/:id" element={<Todo />} />
         </Routes>
       </Router>
     </div>

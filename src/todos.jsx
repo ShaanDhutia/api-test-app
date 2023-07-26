@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { CircularProgress } from "@material-ui/core";
+import { CircularProgress } from "@mui/material";
 import TodoCard from "./TodoCard";
 
 const Todos = () => {
